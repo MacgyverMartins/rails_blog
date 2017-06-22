@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```bash
+git clone git@github.com:MacgyverMartins/rails_blog.git
+```
 
-Things you may want to cover:
+```bash
+cd rails_blog
+```
+```bash
+bundle install
+```
 
-* Ruby version
+```bash
+rake db:migrate
+```
 
-* System dependencies
+```bash
+rails s
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Go to `localhost:3000`
