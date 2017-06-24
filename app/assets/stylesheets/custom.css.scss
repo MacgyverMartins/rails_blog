@@ -1,9 +1,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.logo {
-text-transform: uppercase;
-letter-spacing: -1px;
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
 
 .footer {
@@ -12,7 +17,43 @@ letter-spacing: -1px;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
   line-height: 60px;
-  /* Vertically center the text there */
   background-color: #f5f5f5;
 }
